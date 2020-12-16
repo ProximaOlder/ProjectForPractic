@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import CloudMoon from "../../img/Cloud-Moon.png";
 import Eye from "./eyeIcon";
+import "./SignIn.css"
 
 export default function SignIn({ onButtonClick }) {
   let [count, setCount] = useState("password");

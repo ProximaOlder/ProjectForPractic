@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Cloud from "../../img/Cloud.png";
 import Eye from "./eyeIcon";
+import "./SignUp.css";
 
 export default function SignUp({ onButtonClick }) {
   let [count, setCount] = useState("password");
